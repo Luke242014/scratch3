@@ -46,6 +46,8 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import customextensionIconURL from './custom_extension/custom_extension.png'
+
 export default [
     {
         name: (
@@ -317,5 +319,17 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'Custom Extension',
+        id: 'customextension',
+        description: (
+            <FormattedMessage
+               defaultMessage="Load custom extensions with URLs."
+               description="Description for the Custom Extension extension."
+               id="gui.extension.customextension.description"
+            />
+        ),
+        iconURL: customextensionIconURL
     }
 ];
