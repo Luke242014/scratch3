@@ -330,6 +330,8 @@ export default [
                id="gui.extension.customextension.description"
             />
         ),
-        iconURL: customextensionIconURL
+        iconURL: customextensionIconURL,
+        featured: true,
+        disabled: false
     }
 ];
